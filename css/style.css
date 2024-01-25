@@ -1,0 +1,126 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: url(https://img.freepik.com/free-photo/natures-beauty-reflected-in-tranquil-mountain-waters-generative-ai_188544-7867.jpg?w=900&t=st=1702385932~exp=1702386532~hmac=dc076ea661a4550984ef98c97bc1754e498ead779f98ff55feff63182f9afc6e) center/cover no-repeat;
+  padding: 50px; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  padding: 20px 0 50px 0;
+  background: url(https://img.freepik.com/free-photo/aerial-beautiful-shot-of-a-seashore-with-hills-on-the-background-at-sunset_181624-24143.jpg?w=900&t=st=1702386910~exp=1702387510~hmac=745f457305ca5c05d36ff334e62208b0b9d2056277cd8f69b59a7a1a454095c2) center/cover no-repeat fixed;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 15px #000000;
+  box-shadow: 0px 0px 15px #000000; }
+  @media only screen and (max-width: 870px) {
+    .container {
+      padding: 10px 5px; } }
+  .container .header {
+    max-width: 700px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .container .header .header__title {
+      color: antiquewhite;
+      opacity: 0.8; }
+    .container .header .header__sab-title {
+      color: antiquewhite;
+      opacity: 0.8; }
+    .container .header .header__preview {
+      width: 100%;
+      max-width: 600px;
+      height: 350px;
+      border: 5px solid antiquewhite;
+      border-radius: 20px;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -webkit-box-shadow: 0px 0px 15px #000000;
+      box-shadow: 0px 0px 15px #000000; }
+  .container .about {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 10px; }
+    .container .about .about__title {
+      color: antiquewhite;
+      opacity: 0.8; }
+    .container .about .about__content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      gap: 15px;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      @media only screen and (max-width: 870px) {
+        .container .about .about__content {
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; } }
+      .container .about .about__content .about__preveiw {
+        width: 100%;
+        max-width: 350px;
+        height: 200px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border: 2px solid antiquewhite;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 15px #000000;
+        box-shadow: 0px 0px 15px #000000; }
+      .container .about .about__content .about__description {
+        background: rgba(0, 0, 0, 0.5);
+        color: antiquewhite;
+        opacity: 0.9;
+        max-width: 310px;
+        text-align: left;
+        border-radius: 20px;
+        padding: 0 8px; }
+        @media only screen and (max-width: 870px) {
+          .container .about .about__content .about__description {
+            max-width: 350px;
+            text-align: center; } }
+  .container .photos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px; }
+    .container .photos .photos__title {
+      color: antiquewhite;
+      opacity: 0.8; }
+    .container .photos .photos__wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 14px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .container .photos .photos__wrapper .photos__item {
+        width: 100%;
+        max-width: 360px;
+        height: 250px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border: 2px solid antiquewhite;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 15px #000000;
+        box-shadow: 0px 0px 15px #000000; }

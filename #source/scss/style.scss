@@ -1,0 +1,119 @@
+// Файл обнуляющих стилей
+//@import "nullstyle.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+// Рабочее пространсто
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: url(https://img.freepik.com/free-photo/natures-beauty-reflected-in-tranquil-mountain-waters-generative-ai_188544-7867.jpg?w=900&t=st=1702385932~exp=1702386532~hmac=dc076ea661a4550984ef98c97bc1754e498ead779f98ff55feff63182f9afc6e)
+    center/cover no-repeat;
+  padding: 50px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  padding: 20px 0 50px 0;
+  background: url(https://img.freepik.com/free-photo/aerial-beautiful-shot-of-a-seashore-with-hills-on-the-background-at-sunset_181624-24143.jpg?w=900&t=st=1702386910~exp=1702387510~hmac=745f457305ca5c05d36ff334e62208b0b9d2056277cd8f69b59a7a1a454095c2)
+    center/cover no-repeat fixed;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #000000;
+  @media only screen and (max-width: 870px) {
+    padding: 10px 5px;
+  }
+  .header {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    .header__title {
+      color: antiquewhite;
+      opacity: 0.8;
+    }
+    .header__sab-title {
+      color: antiquewhite;
+      opacity: 0.8;
+    }
+    .header__preview {
+      width: 100%;
+      max-width: 600px;
+      height: 350px;
+      border: 5px solid antiquewhite;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0px 0px 15px #000000;
+    }
+  }
+
+  .about {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 10px;
+    .about__title {
+      color: antiquewhite;
+      opacity: 0.8;
+    }
+    .about__content {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+      @media only screen and (max-width: 870px) {
+        justify-content: center;
+      }
+      .about__preveiw {
+        width: 100%;
+        max-width: 350px;
+        height: 200px;
+        object-fit: cover;
+        border: 2px solid antiquewhite;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px #000000;
+      }
+      .about__description {
+        background: rgba($color: #000000, $alpha: 0.5);
+        color: antiquewhite;
+        opacity: 0.9;
+        max-width: 310px;
+        text-align: left;
+        border-radius: 20px;
+        padding: 0 8px;
+        @media only screen and (max-width: 870px) {
+          max-width: 350px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .photos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+    .photos__title {
+      color: antiquewhite;
+      opacity: 0.8;
+    }
+    .photos__wrapper {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      .photos__item {
+        width: 100%;
+        max-width: 360px;
+        height: 250px;
+        object-fit: cover;
+        border: 2px solid antiquewhite;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px #000000;
+      }
+    }
+  }
+}
